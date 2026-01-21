@@ -1,16 +1,45 @@
-# kasir_pakwd
+# 📱 Aplikasi Kasir
 
-A new Flutter project.
+Aplikasi kasir sederhana menggunakan Flutter, PHP, dan MySQL.
 
-## Getting Started
+## 🎯 Fitur
+- ✅ Login dengan autentikasi
+- ✅ CRUD Produk (Create, Read, Update, Delete)
+- ✅ Tampilan Nama Kasir
+- ✅ Validasi Form
+- ✅ Konfirmasi Hapus
 
-This project is a starting point for a Flutter application.
+## 🛠️ Teknologi
+- **Frontend**: Flutter
+- **Backend**: PHP
+- **Database**: MySQL
+- **Server**: XAMPP
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Instalasi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Clone Repository
+```bash
+git clone  https://github.com/rafiicikiwir/Aplikasi-kasir-flutter.git
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 2. Setup Database
+- Buat database `kasir` di phpMyAdmin
+- Import file `database/kasir.sql`
+
+### 3. Setup API Backend
+- Copy folder `kasir_api` ke `C:\xampp\htdocs\`
+- Sesuaikan file `koneksi.php` jika perlu
+
+### 4. Setup Flutter
+```bash
+cd aplikasi-kasir-flutter
+flutter pub get
+flutter run
+```
+
+## 🔐 Login Default
+- Username: `admin`
+- Password: `admin123`
+
+## 👨‍💻 Author
+[GitHub](https://github.com/rafiicikiwir)
